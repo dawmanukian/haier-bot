@@ -3,12 +3,12 @@ from telebot import types
 import pymysql
 from datetime import date
 
-db = {
-    "host": "localhost",
-    "user": "root",
-    "password": "",
-    "database": "haier"
-}
+# db = {
+#     "host": "localhost",
+#     "user": "root",
+#     "password": "",
+#     "database": "haier"
+# }
 
 bot = telebot.TeleBot('6570372334:AAEKyFRDhFIrp9__3VyZvpFmlITdUepZbh0')
 
